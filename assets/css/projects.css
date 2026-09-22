@@ -1,0 +1,39 @@
+/* Scoped presentation for original project branding; the existing site theme is retained. */
+.project-visual {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6%;
+  padding: 9%;
+  background: var(--project-bg, #f6f7fb);
+  overflow: hidden;
+}
+.project-visual .project-logo {
+  display: block;
+  width: 66%;
+  height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.project-visual-pair .project-logo {
+  width: 44%;
+}
+.portfolio-details .project-visual .project-logo {
+  width: 66%;
+}
+.portfolio-details .project-visual-pair .project-logo {
+  width: 44%;
+}
+.project-image-caption {
+  text-align: center;
+  padding: 16px 12px 4px;
+  font-weight: 600;
+}
+.project-source {
+  margin-bottom: 28px;
+}
+.portfolio-description h2[id] {
+  scroll-margin-top: 28px;
+}
